@@ -239,7 +239,7 @@ def svm_classifier(train,query,train_cols):
 
 	query['result']=clf.predict(query[train_cols])
 	
-	print query[['URL','result']]
+	#print query[['URL','result']]
 
 def train(db,test_db):
 	
